@@ -13,6 +13,8 @@
 		B55DA9A9205111D400E5E070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55DA9A8205111D400E5E070 /* Assets.xcassets */; };
 		B55DA9AC205111D400E5E070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55DA9AA205111D400E5E070 /* LaunchScreen.storyboard */; };
 		B55DA9B62051122F00E5E070 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55DA9B52051122F00E5E070 /* CloudKit.framework */; };
+		B5DFDEC42051195000B35E9B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DFDEC32051195000B35E9B /* PostTableViewCell.swift */; };
+		B5DFDEC620511B0B00B35E9B /* CloudDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DFDEC520511B0B00B35E9B /* CloudDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B55DA9AD205111D400E5E070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B55DA9B32051122200E5E070 /* CloudKitStarter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitStarter.entitlements; sourceTree = "<group>"; };
 		B55DA9B52051122F00E5E070 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B5DFDEC32051195000B35E9B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B5DFDEC520511B0B00B35E9B /* CloudDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				B55DA9B32051122200E5E070 /* CloudKitStarter.entitlements */,
 				B55DA9A1205111D400E5E070 /* AppDelegate.swift */,
 				B55DA9A3205111D400E5E070 /* ViewController.swift */,
+				B5DFDEC520511B0B00B35E9B /* CloudDataManager.swift */,
+				B5DFDEC32051195000B35E9B /* PostTableViewCell.swift */,
 				B55DA9A5205111D400E5E070 /* Main.storyboard */,
 				B55DA9A8205111D400E5E070 /* Assets.xcassets */,
 				B55DA9AA205111D400E5E070 /* LaunchScreen.storyboard */,
@@ -159,7 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B55DA9A4205111D400E5E070 /* ViewController.swift in Sources */,
+				B5DFDEC620511B0B00B35E9B /* CloudDataManager.swift in Sources */,
 				B55DA9A2205111D400E5E070 /* AppDelegate.swift in Sources */,
+				B5DFDEC42051195000B35E9B /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
